@@ -9,6 +9,7 @@ const Intro = ()=>{
             <p class="lead">Menemukan Tuhan dan Ajaran-ajaranNya dalam Studiku</p>
             <hr class="my-4"/>
             <p>Sebuah Refleksi oleh Samuel Gondokusumo dari Program Studi Sistem dan Teknologi Informasi - 18219024<br/>
+            
             </p>
             <p class="lead">
                 <div style={{display:"flex",justifyContent:"center"}}>
@@ -18,7 +19,8 @@ const Intro = ()=>{
 
             </p>
             <p>
-                Ujian Akhir Semester KU2063 <br/>
+                Ujian Akhir Semester KU2063 Agama dan Etika Katolik <br/>
+                Kelas 02 <br/>
                 Fakultas Seni Rupa dan Desain                
             </p>
         </div>     
