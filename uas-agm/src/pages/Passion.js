@@ -1,13 +1,14 @@
 import React, {useContext} from "react"
 import {Card, Fade} from 'react-bootstrap'
-
+import ProgressBar from 'react-bootstrap/ProgressBar'
 const Passion = ()=>{
 
   return(
-    <div className="w3-animate-bottom" style={{width:"65%",margin: "0 auto",paddingBottom:"1%"}}>
+    <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Pemilihan Jurusan</h1>
             <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <ProgressBar variant="success" now={20} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
                         <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
@@ -28,7 +29,7 @@ const Passion = ()=>{
                                 "Karena setiap orang yang mempunyai , kepadanya akan diberi, sehingga ia berkelimpahan. 
                                 Tetapi siapa yang tidak mempunyai, apapun juga yang ada padanya akan diambil dari padanya."</i><br/> 
                         </p>
-                        <img src="https://1.bp.blogspot.com/_mZ-Be57zY1I/SvcczXlWlZI/AAAAAAAAADQ/ci0vEOx4go0/s320/Talenta.jpg"></img>
+                        <img src="https://1.bp.blogspot.com/_mZ-Be57zY1I/SvcczXlWlZI/AAAAAAAAADQ/ci0vEOx4go0/s320/Talenta.jpg" style={{width:"40%",height:"40%"}}></img><br/><br/>
                         <p style={{textAlign:"justify"}}>
                             Tuan dalam perumpamaan ini memuji sikap hambanya yang menerima 5 talenta dan 2 talenta, karena mereka pergi mengembangkan talenta-talenta tersebut.
                             Akan tetapi, ia merasa kesal pada hamba yang menerima 1 talenta, karena hamba tersebut tidak menanamkannya untuk mengembalikan laba,

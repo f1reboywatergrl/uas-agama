@@ -1,13 +1,14 @@
 import React, {useContext} from "react"
 import {Card, Fade} from 'react-bootstrap'
-
+import ProgressBar from 'react-bootstrap/ProgressBar'
 const STI = ()=>{
 
   return(
-    <div className="w3-animate-bottom" style={{width:"65%",margin: "0 auto",paddingBottom:"1%"}}>
+    <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Overview Program Studi</h1>
             <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <ProgressBar variant="success" now={40} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
                         <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
@@ -31,7 +32,7 @@ const STI = ()=>{
                              orang-orang lain hal itu diberitakan dalam perumpamaan, supaya sekalipun memandang, mereka tidak melihat dan sekalipun mendengar, mereka 
                              tidak mengerti. Inilah arti perumpamaan itu: Benih itu ialah firman Allah."</i><br/> 
                         </p>
-                        <img src="https://sangsabda.files.wordpress.com/2015/01/n80.jpg"></img>
+                        <img src="https://sangsabda.files.wordpress.com/2015/01/n80.jpg"style={{width:"40%",height:"40%"}}></img><br/><br/>
                         <p style={{textAlign:"justify"}}>
                             Perikop Injil ini memiliki 2 makna bagi saya. Pertama, dengan "menebar" diri saya dalam berbagai "ladang", saya berharap untuk bisa
                             mewartakan Kerajaan Allah dengan sarana yang lebih beragam. Jika saya membatasi diri saya hanya ke dalam satu disiplin, saya merasa 
@@ -41,7 +42,7 @@ const STI = ()=>{
                             tersebut kelak bisa berkembang menjadi sesuatu yang indah. Sehingga, saya merasa bahwa perpaduan yang tepat antara bidang yang saya gemari
                             dengan Injil-injil yang diajarkan oleh Tuhan, adalah program studi Sistem dan Teknologi Informasi. 
                         </p>
-                        <img src="https://pbs.twimg.com/profile_images/1258982865380896768/75hSx09s_400x400.jpg"></img>
+                        <img src="https://pbs.twimg.com/profile_images/1258982865380896768/75hSx09s_400x400.jpg"style={{width:"40%",height:"40%"}}></img><br/><br/>
                         <p style={{textAlign:"justify"}}>
                             Di dalam program studi ini, karena saya masih dalam semester 3, saya baru mengalami 6 mata kuliah program studi. Mata kuliah tersebut yakni
                             Sistem dan Arsitektur Komputer, Matematika STI, Probabilitas dan Statistik, Organisasi Manajemen dan Perusahaan Industri, Pemodelan Basis Data,

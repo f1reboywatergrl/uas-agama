@@ -1,13 +1,14 @@
 import React, {useContext} from "react"
 import {Card, Fade} from 'react-bootstrap'
-
+import ProgressBar from 'react-bootstrap/ProgressBar'
 const Arsikom = ()=>{
 
   return(
-    <div className="w3-animate-bottom" style={{width:"65%",margin: "0 auto",paddingBottom:"1%"}}>
+    <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Mata Kuliah Sistem dan Arsitektur Komputer</h1>
             <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <ProgressBar variant="success" now={60} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
                         <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
@@ -22,7 +23,7 @@ const Arsikom = ()=>{
                             Komputer, saya merasa bahwa saya tidak ingin mengetahui apa itu komputer dan mengapa komputer diciptakan, tetapi hanya ingin
                             mengetahui cara memrogram yang baik pada komputer.
                         </p>
-                        <img src="https://img.pngio.com/understanding-computer-architecture-gambas-magazine-computer-architecture-png-460_259.png"></img>                             
+                        <img src="https://img.pngio.com/understanding-computer-architecture-gambas-magazine-computer-architecture-png-460_259.png" style={{width:"50%",height:"50%"}}></img><br/><br/>                             
                     </Card.Subtitle>
                     <Card.Text style={{fontSize:"1.1em", lineHeight:1.5}}>
                         <p style={{textAlign:"justify"}}>
@@ -35,7 +36,7 @@ const Arsikom = ()=>{
                             atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas 
                             segala binatang melata yang merayap di bumi."</i><br/> 
                         </p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWHc56ZmIVk7U4-tdvJO2Ktsz31IRpfUSVw&usqp=CAU"></img>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWHc56ZmIVk7U4-tdvJO2Ktsz31IRpfUSVw&usqp=CAU" style={{width:"40%",height:"40%"}}></img><br/><br/>
                         <p style={{textAlign:"justify"}}>
                             Mengapa 2 perikop Injil tersebut penting bagi saya? Pertama, pada surat kedua Rasul Paulus kepada Jemaat di Korintus, beliau mengatakan,
                             bahwa kita harus memastikan bahwa Tuhan Yesus ada dalam diri kita. Kita ingin supaya pilihan-pilihan dan keputusan yang kita ambil

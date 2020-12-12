@@ -1,13 +1,15 @@
 import React, {useContext} from "react"
 import {Card, Fade} from 'react-bootstrap'
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 const Penutup = ()=>{
 
   return(
-    <div className="w3-animate-bottom" style={{width:"65%",margin: "0 auto",paddingBottom:"1%"}}>
+    <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Penutup dan Kesimpulan</h1>
             <Card style={{width:"85%", margin:"1% auto"}}>
+            <ProgressBar variant="success" now={100} />
                 <Card.Body style={{background:"#243140", lineHeight:1.5}}>                        
                     <Card.Subtitle>
                         <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
@@ -25,8 +27,8 @@ const Penutup = ()=>{
                                                 
                     </Card.Subtitle>
                     <Card.Text style={{fontSize:"1.1em"}}>
-                        <img src="https://www.amyrogers.com/wp-content/uploads/2020/03/st-ignatius.jpg"></img>
-                        <p style={{textAlign:"center"}}>
+                        <img src="https://www.amyrogers.com/wp-content/uploads/2020/03/st-ignatius.jpg" style={{width:"40%",height:"40%"}}></img>
+                        <p style={{textAlign:"center",fontSize:"0.85em"}}>
                             <i>Pergilah, dan Kobarkanlah Dunia. - St. Ignatius Loyola</i>
                         </p>
                                                 

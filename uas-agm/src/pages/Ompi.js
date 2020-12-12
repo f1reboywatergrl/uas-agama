@@ -1,13 +1,14 @@
 import React, {useContext} from "react"
 import {Card, Fade} from 'react-bootstrap'
-
+import ProgressBar from 'react-bootstrap/ProgressBar'
 const Ompi = ()=>{
 
   return(
-    <div className="w3-animate-bottom" style={{width:"65%",margin: "0 auto",paddingBottom:"1%"}}>
+    <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Mata Kuliah Organisasi Manajemen dan Perusahaan Industri</h1>
             <Card style={{width:"85%", margin:"1% auto"}}>
+            <ProgressBar variant="success" now={80} />
                 <Card.Body style={{background:"#243140", lineHeight:1.5}}>                        
                     <Card.Subtitle>
                         <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
@@ -32,7 +33,7 @@ const Ompi = ()=>{
                             Matius 7:12 - <i>"Segala sesuatu yang kamu kehendaki supaya orang perbuat kepadamu, 
                                 perbuatlah demikian juga kepada mereka."</i><br/> 
                         </p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0XfU2VmHh_lG9hOP8DBllHKgjIzsdJH9wBA&usqp=CAU"></img>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0XfU2VmHh_lG9hOP8DBllHKgjIzsdJH9wBA&usqp=CAU" style={{width:"35%",height:"35%"}}></img><br/><br/>
                         <p style={{textAlign:"justify"}}>
                             Dua ayat ini mengajarkan cara kita sebagai manusia bertindak terhadap manusia lainnya. Dalam mempelajari struktur organisasi,
                             saya mempelajari bahwa dulu, pekerja pada sebuah industri, sering diperlakukan secara tidak adil. Seringkali pemiliki pabrik/
