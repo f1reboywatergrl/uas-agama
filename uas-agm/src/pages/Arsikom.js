@@ -7,11 +7,11 @@ const Arsikom = ()=>{
     <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Mata Kuliah Sistem dan Arsitektur Komputer</h1>
-            <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <Card style={{width:"100%", margin:"1% auto", lineHeight:1.5}}>
             <ProgressBar variant="success" now={60} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
-                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
+                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.05em", lineHeight:1.5}}>
                             Pada bagian ini, saya akan menjelaskan hal-hal yang telah saya pelajari pada mata kuliah Sistem dan Arsitektur Komputer.
                             Bagi saya, mata kuliah ini cukup unik, karena meskipun saya tertarik belajar mengenai teknologi, saya mengalami permasalahan
                             yang sama seperti yang saya alami sebelum memasuki jurusan ini, yakni saya tidak gemar belajar mata kuliah ini. Mata kuliah ini
@@ -25,7 +25,7 @@ const Arsikom = ()=>{
                         </p>
                         <img src="https://img.pngio.com/understanding-computer-architecture-gambas-magazine-computer-architecture-png-460_259.png" style={{width:"50%",height:"50%"}}></img><br/><br/>                             
                     </Card.Subtitle>
-                    <Card.Text style={{fontSize:"1.1em", lineHeight:1.5}}>
+                    <Card.Text style={{fontSize:"1em", lineHeight:1.5}}>
                         <p style={{textAlign:"justify"}}>
                             Dua Injil singkat ini kemudian menyadarkan saya mengenai pentingnya mengenal diri sendiri dan mempelajari mata kuliah ini: <br/>
                         </p>

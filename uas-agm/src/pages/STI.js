@@ -7,11 +7,11 @@ const STI = ()=>{
     <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Overview Program Studi</h1>
-            <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <Card style={{width:"100%", margin:"1% auto", lineHeight:1.5}}>
             <ProgressBar variant="success" now={40} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
-                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
+                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.05em", lineHeight:1.5}}>
                             Setelah memilih program studi yang cocok untuk saya, saya kemudian memulai pembelajaran saya dalam program studi saya dengan giat.
                             Saya memilih program studi Sistem dan Teknologi Informasi, dan bukan Teknik Informatika, karena program studi ini menawarkan ilmu
                             yang lebih luas dibandingkan Teknik Informatika. Dalam jurusan ini, kami diberi kesempatan untuk belajar tidak hanya bidang teknikal
@@ -19,7 +19,7 @@ const STI = ()=>{
                             atau organisasi.
                         </p>                             
                     </Card.Subtitle>
-                    <Card.Text style={{fontSize:"1.1em", lineHeight:1.5}}>
+                    <Card.Text style={{fontSize:"1em", lineHeight:1.5}}>
                         <p style={{textAlign:"justify"}}>
                             Selain perumpamaan tentang Talenta yang telah saya bahas sebelumnya, keputusan saya juga didukung oleh injil Lukas 8:1-11 : <br/>
                         </p>

@@ -7,11 +7,11 @@ const Passion = ()=>{
     <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Pemilihan Jurusan</h1>
-            <Card style={{width:"85%", margin:"1% auto", lineHeight:1.5}}>
+            <Card style={{width:"100%", margin:"1% auto", lineHeight:1.5}}>
             <ProgressBar variant="success" now={20} />
                 <Card.Body style={{background:"#243140"}}>                        
                     <Card.Subtitle>
-                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
+                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.05em", lineHeight:1.5}}>
                             Saya ingin memulai refleksi saya dengan bercerita mengenai pemilihan jurusan saya.
                             Saya pertama-tama memasuki Sekolah Teknik Elektro dan Informatika karena saya memang ingin masuk ITB, tapi tidak tahu ingin masuk fakultas mana.
                             Awalnya, saya ingin memilih program studi Teknik Informatika atau Sistem dan Teknologi Informasi. Akan tetapi,
@@ -20,7 +20,7 @@ const Passion = ()=>{
                             dari hal yang sulit, bukan menyelesaikannya secara perlahan namun pasti.
                         </p>                             
                     </Card.Subtitle>
-                    <Card.Text style={{fontSize:"1.1em"}}>
+                    <Card.Text style={{fontSize:"1em"}}>
                         <p style={{textAlign:"justify"}}>
                             Saya kemudian teringat akan sabda Yesus dalam injil Matius 25:14-30, mengenai perumpamaan tentang Talenta: <br/>
                         </p>

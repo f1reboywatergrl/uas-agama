@@ -23,6 +23,9 @@ const Intro = ()=>{
                 Kelas 02 <br/>
                 Fakultas Seni Rupa dan Desain                
             </p>
+            <p style={{fontSize:"0.9rem"}}>
+                *Best viewed on a laptop or a wide screen
+            </p>
         </div>     
     </div>
 

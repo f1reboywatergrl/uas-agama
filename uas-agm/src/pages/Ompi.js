@@ -7,11 +7,11 @@ const Ompi = ()=>{
     <div className="w3-animate-bottom" style={{width:"65%",margin:"2% auto 3%",paddingBottom:"1%"}}>
     <div>
         <h1>Mata Kuliah Organisasi Manajemen dan Perusahaan Industri</h1>
-            <Card style={{width:"85%", margin:"1% auto"}}>
+            <Card style={{width:"100%", margin:"1% auto"}}>
             <ProgressBar variant="success" now={80} />
                 <Card.Body style={{background:"#243140", lineHeight:1.5}}>                        
                     <Card.Subtitle>
-                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.15em", lineHeight:1.5}}>
+                        <p style={{padding:"0.5%",textAlign:"justify", fontSize:"1.05em", lineHeight:1.5}}>
                             Pada bagian ini, saya akan menjelaskan hal-hal yang telah saya pelajari pada mata kuliah Organisasi Manajemen dan Perusahaan Industri.
                             Mata kuliah yang cukup menonjol bagi saya, mata kuliah ini tidak memfokuskan kami kepada teknologi maupun pemrograman,
                             namun struktur dari sebuah organisasi dan cara me-<i>manage</i> nya. Disini kami belajar hal-hal seperti sejarah perkembangan manajemen
@@ -23,7 +23,7 @@ const Ompi = ()=>{
                         </p>     
                                                 
                     </Card.Subtitle>
-                    <Card.Text style={{fontSize:"1.1em"}}>
+                    <Card.Text style={{fontSize:"1em"}}>
                         <p style={{textAlign:"justify"}}>
                             Kedua ayat ini menjadi sorotan ketika membicarakan hal-hal yang saya pelajari pada mata kuliah ini: <br/>
                         </p>
